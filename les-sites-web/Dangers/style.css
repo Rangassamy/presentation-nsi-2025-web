@@ -1,0 +1,87 @@
+/* --- Général --- */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: LightSkyBlue; /* Légère teinte bleu clair */
+    color: DarkSlateGray;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    background-color: DarkCyan; /* Bleu canard */
+    color: White;
+    padding: 30px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* --- Contenu principal --- */
+main {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: DimGray;
+}
+a {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: DimGray;
+}
+/* --- Styles des sections réutilisables --- */
+.section-box {
+    margin-top: 30px;
+    background-color: AliceBlue; /* Bleu très clair */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-box .section-item {
+    background-color: White;
+    border: 2px solid DarkCyan; /* Bleu canard */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-box h3 {
+    color: DarkCyan;
+    font-size: 1.5rem;
+}
+
+.section-box p {
+    color: DimGray;
+    font-size: 1rem;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: Gold; /* Jaune doré */
+    color: DarkCyan;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: DarkCyan;
+    color: Gold;
+}

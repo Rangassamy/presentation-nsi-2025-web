@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Minecraft</title>
+		<link rel="stylesheet" href="style 1.css">
+	
+	<head>
+	<body>
+		<h1>Tips</h1>
+		<p>Le saviez-vous ? J'aime les gens </p>
+		<p><img src="minecraft image.JPEG"></p>
+		<a href="page1.html">Cliquez ici pour allez à la page 1>
+		<br>
+		<div id='box'>
+			<div id='box1'>Premiere boite</div>
+			<div id='box2'>Deuxieme boite</div>
+			<div id='box3'>Troisieme boite</div>
+		</div>
+	</body>
+</html>

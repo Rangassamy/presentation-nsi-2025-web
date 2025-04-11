@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Accueil - Le quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="Javascript.js"></script>
+</head>
+<body>
+  <h1>Quiz</h1>
+  <main>
+    <section class="section-box">
+      <!-- Présentation du quiz -->
+      <div class="section-item">
+        <p>Ce quiz est à réponses multiples. Il reprend les informations des différentes pages lues précédemment (si vous avez pris la peine de les lire, bien évidemment).</p>
+        <p>Bonne chance :D</p>
+      </div>
+
+
+      <form id="quizForm">
+        <div class="section-item">
+          <p>1) Quelle genre de technique le phishing pratique-t-il ?</p>
+          <label><input type="radio" name="q1" value="peche"> La technique pour pêcher</label><br>
+          <label><input type="radio" name="q1" value="fraude"> La technique frauduleuse</label><br>
+          <label><input type="radio" name="q1" value="marchande"> La technique marchande</label><br>
+
+          <p>2) Quels éléments faut-il chercher pour vérifier la sécurité des sites ?</p>
+          <label><input type="radio" name="q2" value="http"> "http"</label><br>
+          <label><input type="radio" name="q2" value="https"> "https"</label><br>
+
+          <p>3) Comment ignorer les rapports techniques ?</p>
+          <label><input type="radio" name="q3" value="ignorer"> Ignorer les messages alarmants ou les appels non sollicités</label><br>
+          <label><input type="radio" name="q3" value="repondre"> Répondre à l’arnaqueur</label><br>
+          <label><input type="radio" name="q3" value="envoyer"> Envoyer une photo de ses codes de carte</label><br>
+
+          <p>4) Quel est le terme "infos" qui signifie partager de mauvaises informations ?</p>
+          <label><input type="radio" name="q4" value="divulgation"> Divulgation fausse</label><br>
+          <label><input type="radio" name="q4" value="fake-news"> Fake news</label><br>
+          <label><input type="radio" name="q4" value="info-manipulee"> Information manipulée</label><br>
+
+          <p>5) Quels sont les moyens utilisés par les groupes terroristes sur les réseaux sociaux pour recruter ?</p>
+          <label><input type="radio" name="q5" value="propagande"> Exploiter l'anonymat et diffuser leur propagande</label><br>
+          <label><input type="radio" name="q5" value="bienveillance"> Promouvoir des comportements bienveillants</label><br>
+          <label><input type="radio" name="q5" value="likes"> Liker leurs publications Instagram</label><br>
+
+          <p>6) Quels sont les rôles principaux des réseaux sociaux en termes d'influence ?</p>
+          <label><input type="radio" name="q6" value="vigilance"> Être vigilant automatiquement contre les contenus nuisibles</label><br>
+          <label><input type="radio" name="q6" value="promotion"> Promouvoir des produits, des idées politiques ou des comportements spécifiques</label><br>
+          <label><input type="radio" name="q6" value="positif"> Influencer uniquement des comportements positifs</label><br>
+
+          <p>7) Quels sont les signes d'une addiction aux jeux vidéo ?</p>
+          <label><input type="radio" name="q7" value="isolement"> Isolement social, trouble d'humeur et négligence des études</label><br>
+          <label><input type="radio" name="q7" value="amelioration"> Amélioration sur les niveaux du jeu</label><br>
+          <label><input type="radio" name="q7" value="taches"> Aide à faire les tâches ménagères à la maison</label><br>
+
+          <p>8) Que faire si on voit un contenu illégal sur Internet ?</p>
+          <label><input type="radio" name="q8" value="partager"> Le partager à ses amis</label><br>
+          <label><input type="radio" name="q8" value="signaler"> Le signaler</label><br>
+          <label><input type="radio" name="q8" value="liker"> Liker le contenu</label><br>
+
+          <p>9) Où peut avoir lieu le cyberharcèlement ?</p>
+          <label><input type="radio" name="q9" value="ecole"> À l'école</label><br>
+          <label><input type="radio" name="q9" value="reseaux"> Sur les réseaux sociaux et les messageries en ligne</label><br>
+          <label><input type="radio" name="q9" value="magasin"> Dans un magasin</label><br>
+
+          <p>10) Qu'est-ce qu'un "cold numérique" ?</p>
+          <label><input type="radio" name="q10" value="publication"> Une publication postée sur les réseaux</label><br>
+          <label><input type="radio" name="q10" value="jeu"> Un jeu en ligne conservé</label><br>
+          <label><input type="radio" name="q10" value="harcelement"> Plusieurs personnes qui harcèlent une victime en ligne</label><br>
+        </div>
+
+        <!-- Texte à trous -->
+        <div class="section-item">
+          <p>Vous allez maintenant vous confronter à 3 textes à trous que vous devrez compléter avec les choix qui vous seront fournis.</p>
+        </div>
+        
+        <div class="section-item">
+          <label for="q11">1) La 
+            <select name="q11">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="fraude">Fraude</option>
+              <option value="arrachage">Arrachage</option>
+              <option value="perte">Perte</option>
+            </select> 
+            à la carte bancaire désigne l’utilisation frauduleuse des 
+            <select name="q12">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="coordonnees">Coordonnées</option>
+              <option value="numero">Numéro</option>
+              <option value="code">Code</option>
+            </select> 
+            de la carte bancaire d’une personne à son 
+            <select name="q13">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="insu">Insu</option>
+              <option value="connaissance">Connaissance</option>
+              <option value="autorisation">Autorisation</option>
+            </select> 
+            alors que celle-ci est pourtant toujours en possession de sa carte.
+          </label>
+          <br><br>
+          <label for="q14">2) Les réseaux sociaux sont devenus un 
+            <select name="q14">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="outil">Outil</option>
+              <option value="moyen">Moyen</option>
+              <option value="reseau">Réseau</option>
+            </select> 
+            puissant 
+            <select name="q15">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="dinfluence">D'influence</option>
+              <option value="publicitaire">Publicitaire</option>
+              <option value="marketing">Marketing</option>
+            </select>, 
+            que ce soit pour promouvoir des 
+            <select name="q16">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="produits">Produits</option>
+              <option value="services">Services</option>
+              <option value="personnes">Personnes</option>
+            </select>, 
+            des 
+            <select name="q17">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="idees">Idées politiques</option>
+              <option value="produits">Produits</option>
+              <option value="personnalites">Personnalités</option>
+            </select> 
+            ou des 
+            <select name="q18">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="comportements">Comportements spécifiques</option>
+              <option value="entreprises">Entreprises</option>
+              <option value="reseaux">Réseaux</option>
+            </select>.
+          </label>
+          <br><br>
+          <label for="q19">3) Le CSA a des compétences sur les 
+            <select name="q19">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="programmes">Programmes</option>
+              <option value="affiches">Affiches</option>
+            </select> 
+            de télévision ou radio diffusés par internet, mais pas sur les 
+            <select name="q20">
+              <option value="" selected disabled>-- Choisissez --</option>
+              <option value="sites">Sites</option>
+              <option value="applications">Applications</option>
+              <option value="plateformes">Plateformes</option>
+            </select> 
+            internet eux-mêmes.
+          </label>
+          <br><br>
+        </div>
+
+        <button type="submit">Valider les réponses</button>
+      </form>
+    </section>
+
+    <a href="Ma page Web.html" class="button">Retour à l'accueil</a>
+  </main>
+</body>
+</html>

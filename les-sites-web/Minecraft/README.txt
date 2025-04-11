@@ -1,0 +1,3 @@
+1) Notre page principale se trouve dans le dossier html et se nomme Main.html
+2) L'absence d'accents peut piquer les yeux, mais c'est un choix car dans la version originale du jeu, il n'y en a pas.
+3) La page Statistiques et la page Main sont faites par Erwan, les page de Tips et Astuces sont faites par Adrien et les page de Theories sont faites mar Malcom, la page de quiz est realisee par Erwan et Adrien

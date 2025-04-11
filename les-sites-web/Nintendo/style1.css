@@ -1,0 +1,131 @@
+
+h1 {
+    background-color: #FFA726;
+    color: #ffffff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h2:hover {
+    color: #EF6C00;
+    transform: scale(1.1);
+}
+
+div {
+    font-size: 125%;
+    color: white;
+}
+
+body {
+    background-image: url('path-to-your-image.jpg'); /* Remplace 'path-to-your-image.jpg' par l'URL de ton image */
+    background-size: cover;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+#button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-poussoir {
+    background-color: #FFB74D; 
+    color: #ffffff; 
+    border: none;
+    padding: 15px 30px;
+    margin: 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée douce */
+    transition: all 0.3s ease; /* Transition fluide pour tous les changements */
+}
+
+/* Effet au survol */
+.btn-poussoir:hover {
+    background-color: #1635; /* Rouge foncé au survol */
+    transform: translateY(-3px); /* Légère élévation du bouton */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
+}
+
+/* Effet au clic */
+.btn-poussoir:active {
+    transform: translateY(1px); /* Effet de pression, le bouton semble s'enfoncer */
+}
+
+/* Effet au focus (quand le bouton est sélectionné) */
+.btn-poussoir:focus {
+    outline: none; /* Retire le contour par défaut */
+    box-shadow: 0 0 0 4px rgba(144, 6, 3, 0.4); /* Ombre autour du bouton */
+}
+
+h4{
+    color: black;
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+h5 {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+h6 {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.texte {
+    max-width: 55%;
+}
+
+.texte h4 {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+
+.image-createur {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+button.class {
+    line-height: 1.6;
+}

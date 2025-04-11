@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/les-sites-web/scriptify/build/static/css/main.abca5267.css",
+    "main.js": "/les-sites-web/scriptify/build/static/js/main.fd9c0dae.js",
+    "static/media/CodecPro-Regular.ttf": "/les-sites-web/scriptify/build/static/media/CodecPro-Regular.73c4e0f788ac1825caf5.ttf",
+    "static/media/mokoto-mokoto-regular-400.ttf": "/les-sites-web/scriptify/build/static/media/mokoto-mokoto-regular-400.0290ae3785ffc56608f7.ttf",
+    "index.html": "/les-sites-web/scriptify/build/index.html",
+    "main.abca5267.css.map": "/les-sites-web/scriptify/build/static/css/main.abca5267.css.map",
+    "main.fd9c0dae.js.map": "/les-sites-web/scriptify/build/static/js/main.fd9c0dae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abca5267.css",
+    "static/js/main.fd9c0dae.js"
+  ]
+}

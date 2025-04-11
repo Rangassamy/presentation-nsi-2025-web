@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>nintendo</title>  
+        <link rel="stylesheet" href="console.css">
+    </head>
+    <body>
+        <header id="titre">    
+               <h1>Les consoles nintendo</h1>
+               <a href="NINTENDO QUEST.html" class="boutton">Acceuil</a>
+               <a href="Quiz.html" class="boutton">Super Quizz</a>
+        </header>
+        <h2>Game Boy</h2>
+        <main>
+             <h3>La première console portative</h3>
+             <p>
+               <img src="gameboy.jpeg"><br />
+                Tout le monde adore le Game Boy. Avec une si grande puissance contenue dans un si petit boîtier, cette petite console révolutionna le jeu vidéo à sa sortie au Japon en 
+                1989. Depuis lors, cette console de poche a été vendue à plus de 100 millions d'exemplaires, offrant aux joueurs du monde entier la possibilité de jouer à leurs jeux 
+                favoris, quel que soit l'endroit où ils se trouvent.
+             </p>
+             <h3>Plusieurs tailles et couleurs</h3>
+             <p>
+               <img src="gameboycolor.jpg"><br />
+               À ses débuts, le Game Boy était uniquement disponible en gris et blanc. C'est à l'arrivée des années 90 que la gamme de couleur du Game Boy se diversifie. En 1997, 
+               Nintendo fit un pas de plus en diminuant les dimensions du Game Boy pour créer la série Game Boy Pocket. Mais quelles que soient ses apparences, la principale vocation du 
+               Game Boy reste d'offrir aux joueurs des montagnes de plaisir en prenant le moins de place possible.
+             <div id='bouton'>
+                <a href="nintendo.html" class="boutton">NES</a>
+                <a href="supernintendo.html" class="boutton">Super nintendo</a>
+                <a href="DS.html" class="boutton">Nintendo DS</a>
+                <a href="wii.html" class="boutton">Wii</a>
+             </div>
+        </main>
+        <footer>
+              <small>Ce site a été creer par Tahyanna Quistin, Anaëlle Abela et Kennedy Ruiz Hernandez</small>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Statistiques</title>
+		<link rel="stylesheet" href="../style/statStyle.css">
+	</head>
+	<body>
+		<h1>
+			<div id="header">
+				<div id="logo_buton" onclick="window.location.href='main.html';"><img src="../images/logo.png" height="150px"> </div>
+				<div class="button_slide slide_down" onclick="window.location.href='aide.html';">AIDE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_right" onclick="window.location.href='stats.html';">STATISTIQUES</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_left" onclick="window.location.href='theorie.html';">THEORIE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_diagonal" onclick="window.location.href='quiz.html';">QUIZZZ</div>
+				<br /> <br /><br />
+			</div>
+		</h1><br><br><br><br><br><br>
+		<p1>
+			<img src="../images/allAxolotl.jpg" height="260">
+			<span>Il existe 5 couleurs differentes d'axolotls : le rose , le cyan, le brun , le jaune et une version beaucoup plus rare, le bleu. En faisant se reproduire deux axolotls, il y a 1 chance sur 1200 (0,083 %) que le bebe axolotl soit bleu, ce qui laisse 1199 chance sur 1200 (99,917 %) que sa couleur corresponde a l'un des deux parents (y compris les parents bleus).</span>
+		</p1><br>
+		<p2>
+			<img src="../images/moutonRose.jpg" height="260">
+			<span>Les moutons apparaissent un peut partout dans le monde toujours par groupe de quatre. Trois de ces moutons sont systematiquement blancs et le dernier a 81,836 % de chances d'etre aussi blanc, 5 % de chances d'etre gris clair, 5 % de chances d'etre gris fonce, 5 % de chances d'etre noir, 3 % de chances d'etre marron et... 0.164 % de chance d'etre rose.</span>
+		</p2><br>
+		<p1>
+			<img src="../images/bebeMoutonRose.png" height="260">
+			<span>Il y a 20% de chance qu'une creature apparaise bebe, en ajoutant les 0.164% de chance qu'un mouton soit rose on obtiens 0,008% de voir un bebe mouton rose</span>
+		</p1><br>
+		<p2>
+			<img src="../images/feuille.png" height="260">
+			<span>En cassant une feille de chene, on peut tomber sur une pomme, une pousse de chene, un baton et... les 3 en meme temps. Et oui, il y a 5% de chance d'obtenir une pousse de chene, 2% de chance d'avoir un baton et 0.5% d'avoir une pomme. Si on multiplie les 3 entre elle on obtiens 0.0005% de chance d'obtenir les 3 en meme temps, soit environ 1 sur 2 millions.</span>
+		</p2><br>
+		<p1>
+			<img src="../images/trident.png" height="260">
+			<span>6,25 % des noyes dans la version Java et 15 % dans la version Bedrock apparaissent avec un trident comme arme naturelle, et ils ont 8,5 % de chances de lâcher le trident a leur mort avec une durabilite aleatoire.La probabilite d'obtenir un trident sur un noye sans l'enchantement Butin est donc de 0,53125 % (soit environ un tous les 188 noyes).</span>
+		</p1><br>
+		<p2>
+			<img src="../images/enderPerle.png" height="260">
+			<span>Un Enderman a 50 % de chances de laisser tomber 1 perle d'Ender lorsqu'il est tue. Le nombre de perles est augmente de 1 par niveau de Looting , avec un maximum de 4 avec Looting III. Il y a auusi 23% de chance d'en trouver dans le coffre d'un bastion</span>
+		</p2><br>
+		<p1>
+			<img src="../images/cannePeche.png" height="260">
+			<span>Une canne a peche qui n'a pas ete utilisee a 85 % de chances d'attraper du poisson, 10 % de chances d'attraper des dechets et 5 % de chances d'attraper un tresor. Chaque niveau de l'enchantement Chance de la mer augmente les chances d'attraper un tresor au detriment des chances d'attraper du poisson et des dechets.</span>
+		</p1><br>
+		<p2>
+			<img src="../images/zombieRare.png" height="260">
+			<span>Les zombies qui ne sont pas des zombies momifies ont 5 % de chances d'apparaître sous forme de zombies-villageois. Les zombie-villageois ont 5 % de chances d'apparaître sous la forme de bebe zombie-villageois. Les bebes zombies-villageois ont eux-memes 5 % de chances d'apparaître sur une poule. Ils ont 15 % de chances d'avoir une armure, 72 % de chances que ce soit un ensemble complet, 0,04 % de chances d'etre en diamant, 50 % de chance que l'armure soit enchante, 5 % de chance qu'il est une arme, 33 % que se soi une epee en fer et enfin 25 % que sont arme soit enchante. Apres un peut de calcule mental, seul 0,000000111375 % des zombies sont des bebe zombie-villageois avec une armure de diament complet et une epee en diament et bien sur que tout soit enchente, sur le dos d'une poule soit le monstre le plus rare de minecraft.(1 zombie sur 897 867 565)</span>
+		</p2><br>
+		<footer>
+			<p>&copy; 2025 Minecraft Statistiques - Tous Droits reserves - Erwan GREINER</p>
+		<footer/>
+	</body>
+</html>

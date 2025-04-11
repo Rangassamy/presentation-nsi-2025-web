@@ -1,0 +1,59 @@
+body {
+    background-image: url('../img/fonctionnement/image_fond.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+    color: white;
+
+}
+
+/* section principal */
+
+#principal {
+    float: left;
+    width: 50%;
+    margin: 0;
+}
+
+.infos {
+
+    border-radius: 5px;
+    margin: 10%;
+    background-color: #00185d;
+}
+
+.infos h2 {
+    background-color: #51f7e9;
+    border-radius: 5px;
+    font-family: Tahoma;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* section mode */
+#mode {
+    float: right;
+    border-radius: 2%;
+    width: 50%;
+    margin: 5% 0 0 0;
+    padding: 0% 0% 5% 0%;
+    background-color: #00185d;
+}
+
+
+
+#mode div {
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+#mode div img {
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10%;
+}
+
+#mode div p {
+    margin: 0% 0% 0% 25%;
+}

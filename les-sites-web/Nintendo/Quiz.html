@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   <div id="quiz-container">
+    <h1>Super Quizz</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. Quelle est la date de création de la société?</p>
+        <label><input type="radio" name="q1" value="a" data-correct="true"> 23 Septembre</label>
+        <label><input type="radio" name="q1" value="b"> 2 Avril</label>
+        <label><input type="radio" name="q1" value="c"> 20 Décembre</label>
+      </div>
+
+      <div class="question">
+        <p>2. Comment se prénome le créateur?</p>
+        <label><input type="radio" name="q2" value="Naruto"> Naruto</label>
+        <label><input type="radio" name="q2" value="Fusajiro Yamauchi" data-correct="true"> Fusajiro Yamauchi</label>
+        <label><input type="radio" name="q2" value="Fugisaki Yamato"> Fugisaki Yamato</label>
+      </div>
+      
+      <div class="question">
+        <p>3. Quel est le nom de l'entreprise?</p>
+        <label><input type="radio" name="q3" value="Nintendo" data-correct="true"> Nintendo</label>
+        <label><input type="radio" name="q3" value="Nuntendo"> Nuntendo</label>
+        <label><input type="radio" name="q3" value="Mario"> Mario</label>
+      </div>
+      
+      <div class="question">
+        <p>4. Que produit-elle?</p>
+        <label><input type="radio" name="q4" value="des cartes"> des cartes</label>
+        <label><input type="radio" name="q4" value="des jeux et des consoles" data-correct="true"> des jeux et des consoles</label>
+        <label><input type="radio" name="q4" value="des pistolets"> des pistolets</label>
+      </div>
+
+      <div class="question">
+        <p>5. Qui a créé la Game Boy ?</p>
+        <label><input type="radio" name="q5" value="Nintendo"> Nintendo</label>
+        <label><input type="radio" name="q5" value="le créateur de la Game Boy"> le créateur de la Game Boy</label>
+        <label><input type="radio" name="q5" value="un ancien agent de la maintenance" data-correct="true"> un ancien agent de la maintenance</label>
+      </div>
+
+      <div class="question">
+        <p>6. Quel était le premier nom de Mario ?</p>
+        <label><input type="radio" name="q6" value="Jumpscare"> Jumpscare</label>
+        <label><input type="radio" name="q6" value="Jumpman" data-correct="true"> Jumpman</label>
+        <label><input type="radio" name="q6" value="Jumpjump"> Jumpjump</label>
+      </div>
+
+      <div class="question">
+        <p>7. Quel jeu a été présenté ?</p>
+        <label><input type="radio" name="q7" value="Animal crossing" data-correct="true"> Animal Crossing</label>
+        <label><input type="radio" name="q7" value="GTA"> GTA</label>
+        <label><input type="radio" name="q7" value="Uncharted"> Uncharted</label>
+      </div>
+
+      <div class="question">
+        <p>8. Quel a été le 1er jeu ?</p>
+        <label><input type="radio" name="q8" value="Zelda"> Zelda</label>
+        <label><input type="radio" name="q8" value="Mario"> Mario</label>
+        <label><input type="radio" name="q8" value="Donkey Kong" data-correct="true"> Donkey Kong</label>
+      </div>
+
+      <div class="question">
+        <p>9. La Super Nintendo possède une manette ?</p>
+        <label><input type="radio" name="q9" value="oui" data-correct="true"> oui</label>
+        <label><input type="radio" name="q9" value="non"> non</label>
+      </div>
+
+      <div class="question">
+        <p>10. Quelle console a été présentée ?</p>
+        <label><input type="radio" name="q10" value="la Ps5"> la Ps5</label>
+        <label><input type="radio" name="q10" value="la Wii" data-correct="true"> la Wii</label>
+        <label><input type="radio" name="q10" value="la Xbox360"> la Xbox360</label>
+      </div>
+
+      <button type="button" onclick="checkAnswers()">Soumettre</button>
+     
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function checkAnswers() {
+      var correctAnswers = 0;
+      var totalQuestions = 10;
+      var form = document.getElementById('quiz-form');
+      var questions = form.querySelectorAll('.question');
+      
+      questions.forEach(function(question, index) {
+        var selectedOption = question.querySelector('input[type="radio"]:checked');
+        if (selectedOption) {
+          if (selectedOption.dataset.correct) {
+            correctAnswers++;
+          }
+        }
+      });
+
+      var resultDiv = document.getElementById('result');
+      resultDiv.innerHTML = "Vous avez obtenu " + correctAnswers + " sur " + totalQuestions + " réponses correctes.";
+    }
+  </script>
+
+  <!-- Ajouter les boutons après la fermeture du script -->
+  <div id="button">
+   
+    <button class="btn-poussoir" onclick="window.location.href='./NINTENDO QUEST.html'">
+      ACCUEIL
+    </button>
+  </div>
+</body>
+</html>

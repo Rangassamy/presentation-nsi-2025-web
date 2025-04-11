@@ -1,0 +1,93 @@
+#about {
+  min-height: 100vh;
+  background: #1a1a1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#about .left_part {
+  min-width: 500px;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#about .left_part h2 {
+  color: #f878cd;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#about .left_part h3 {
+  color: #f878cd;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+  margin-bottom: 80px;
+}
+
+#about .right_part {
+  min-width: 500px;
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#about .right_part h2 {
+  color: #f878cd;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+  margin-top: 80px;
+}
+
+#about .card {
+  background: #f878cd;
+  min-height: 400px;
+  justify-content: center;
+  padding: 50px 20px;
+  position: relative;
+  text-align: center;
+}
+
+#about .card h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: black;
+  position: relative;
+  margin-bottom: 20px;
+}
+#about .card p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+}
+
+#about .card .bold {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.band {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  width: 80%;
+  height: 2px;
+  transform: translate(-50%, -50%);
+  background-color: #1a1a1b;
+}

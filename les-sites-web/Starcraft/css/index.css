@@ -1,0 +1,87 @@
+body {
+    background-image: url("../img/accueil/background.png");
+    background-size: cover;
+}
+
+/* bienvenue */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #f6ecec;
+}
+
+#logo {
+    display: block;
+    margin: 0% auto 0% auto;
+    height: 200px;
+}
+
+/* bienvenue */
+
+
+/* presentation */
+#presentation {
+    margin: 0% 2% 2% 0%;
+    overflow: hidden;
+}
+
+#presentation div {
+    color: rgb(254, 254, 254);
+    padding: 1%;
+    font-weight: bolder;
+    border-radius: 5%;
+    float: left;
+    width: 50%;
+}
+
+#presentation img {
+    float: right;
+    width: 44%;
+    opacity: 90%;
+    border-radius: 2%;
+}
+
+/* presentation */
+
+
+/* presentation races */
+aside {
+    overflow: hidden;
+    text-align: center;
+}
+
+#protoss img,
+#terran img,
+#zerg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#protoss,
+#terran,
+#zerg {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+    margin: 10px;
+    width: 30%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#terran:hover,
+#zerg:hover,
+#protoss:hover {
+    background-color: #c43737;
+    color: #4b0660;
+}
+
+hr {
+    border: 2px solid #333;
+}
+
+/* presentation races */

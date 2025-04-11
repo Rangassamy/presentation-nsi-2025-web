@@ -1,0 +1,34 @@
+ <!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Minecraft</title>
+		<link rel="stylesheet" href="../style/style1.css">
+	</head>
+	<body>
+		<h1>
+			<div id="header">
+				<div id="logo_buton" onclick="window.location.href='main.html';"><img src="../images/logo.png" height="150px"> </div>
+				<div class="button_slide slide_down" onclick="window.location.href='page1.html';">AIDE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_right" onclick="window.location.href='stats.html';">STATISTIQUES</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_left" onclick="window.location.href='theorie.html';">THEORIE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_diagonal" onclick="window.location.href='quiz.html';">QUIZZZ</div>
+				<br /> <br /><br />
+			</div>
+		</h1><br><br><br><br><br><br><br><br>
+		<br><br><br>
+		<div id='box'>
+			<div id='box1'onclick="window.location.href='../html/Aide.html';">
+			</div>
+			<br><br><br><br><br>
+			<div id='box2'onclick="window.location.href='../html/Tips.html';">
+			</div>
+			<br><br><br><br><br>
+			<div id='box3' onclick="window.location.href='../html/Secret.html';">
+			</div>
+        </div>
+	</body>
+</html>

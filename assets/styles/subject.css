@@ -1,0 +1,74 @@
+#subject {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* partie de gauche */
+
+#subject .left_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 100%;
+  padding: 30px;
+}
+
+#subject h2 {
+  margin: auto;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+#subject p {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+#subject img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: 40px auto;
+}
+
+/* partie de droite */
+
+#subject .right_part {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 100%;
+  justify-content: space-around;
+  min-width: 700px;
+}
+
+.card {
+  min-width: 500px;
+  width: 50%;
+  padding: 10px;
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+.card p {
+  font-size: 0.7rem;
+  font-family: "Inter", sans-serif;
+  width: 80%;
+  margin-right: 10px;
+}

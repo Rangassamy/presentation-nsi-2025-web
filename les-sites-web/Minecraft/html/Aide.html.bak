@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Minecraft</title>
+		<link rel="stylesheet" href="../style/StyleAide.css">
+	<body>
+		<h1>
+			<div id="header">
+				<div id="logo_buton" onclick="window.location.href='main.html';"><img src="../images/logo.png" height="150px"> </div>
+				<div class="button_slide slide_down" onclick="window.location.href='page1.html';">AIDE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_right" onclick="window.location.href='stats.html';">STATISTIQUES</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_left" onclick="window.location.href='theorie.html';">THEORIE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_diagonal" onclick="window.location.href='quiz.html';">QUIZZZ</div>
+				<br /> <br /><br />
+			</div>
+		</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="section gauche">
+    <h2>Les outils de base à fabriquer</h2>
+    <img src="../images/outils.png" alt="Outils de base" class="section-img">
+	<p>Pour survivre et progresser dans Minecraft,il y a différent outils essentiel à la survie !! Voici les outils essentiels à fabriquer dès le début :</p>
+<ul>
+    <li><strong>Pioche:</strong> Pour récolter de la pierre, du charbon et d'autres minerais.</li>
+    <li><strong>Pelle :</strong> Permet de récolter la terre, le sable et le gravier.</li>
+    <li><strong>Hache :</strong> Utile pour abattre les arbres plus rapidement et récolter du bois.</li>
+    <li><strong>Épée  :</strong> Pour se défendre contre les créatures hostiles comme les zombies et les squelettes.</li>
+	<li><strong>Houe  :</strong> A utiliser sur la terre pour pouvoir planter des graines. (pour le blé, carottes, pomme de terre...)
+</ul>
+	<p>Ces outils peuvent être créer avec différents matériaux:</p>
+<ul>
+	<li><strong>Astuce:</strong> Plus le matériaux utiliser est rare meilleure seras l'éfficacités (bois ,fer ,diamants et netherite),(l'or est autant éfficace que le bois)
+    
+</div>
+
+<div class="section droite">
+    <h2>Les créatures et monstres dans Minecraft</h2>
+    <img src="../images/mobs.png" alt="Monstres" class="section-img">
+    <p>Dans l'univers de Minecraft, les créatures et monstres ajoutent du dynamisme et des défis au gameplay. Découvrez les différents types de créatures : passives, neutres et hostiles, ainsi que leurs particularités et leurs interactions avec les joueurs.</p>
+    <h3>Les principales catégories</h3>
+    <ul>
+        <li><strong>Créatures passives :</strong> Animaux de ferme (vaches, cochons), animaux sauvages (renards, lapins), et créatures utiles comme les villageois.</li>
+        <li><strong>Créatures neutres :</strong> Loups, abeilles et Enderman. Elles réagissent uniquement si provoquées.</li>
+        <li><strong>Créatures hostiles :</strong> Creeper, zombie, squelette, araignée, et boss comme l’Ender Dragon et le Wither.</li>
+    </ul>
+    <h3>Focus sur les Boss</h3>
+    <ul>
+        <li><strong>Ender Dragon :</strong> Trouvé dans l’End, il s’agit du boss final.</li>
+        <li><strong>Wither :</strong> Un boss invoqué qui cause des dégâts massifs.</li>
+    </ul>
+    <p><strong>Astuce :</strong> Les montres hostiles apparaissent uniquement en absence de lumière ,alors placez des torches pour empêcher les monstres d’apparaître la nuit !</p>
+</div>
+
+<div class="section gauche">
+    <h2>Les ressources à récolter</h2>
+    <img src="../images/ressource.png" alt="Ressources" class="section-img">
+    <p>Les ressources sont la clé de votre progression dans Minecraft. Elles vous permettent de créer des outils, de construire des structures et de survivre face aux dangers.</p>
+    <h3>Types de ressources</h3>
+    <ul>
+        <li><strong>Ressources de base :</strong> Bois, pierre, charbon. Utilisation : Créez des outils de base et des torches.</li>
+        <li><strong>Ressources rares :</strong> Diamant, émeraude, or. Utilisation : Fabriquez des armes et armures puissantes ou commercez avec les villageois.</li>
+        <li><strong>Ressources alimentaires :</strong> Blé, carottes, pommes. Utilisation : Répondent à vos besoins en nourriture pour survivre.</li>
+        <li><strong>Ressources du Nether :</strong> Blocs de quartz, bâtons de Blaze. Utilisation : Cruciales pour l’alchimie et les décorations.</li>
+    </ul>
+    <p><strong>Astuce :</strong> Creusez toujours avec une pioche adaptée. Utiliser une mauvaise pioche peut détruire des minerais rares comme le diamant.</p>
+</div>
+
+<div class="section droite">
+    <h2>La gestion de la faim et de la santé</h2>
+    <img src="../images/santé.png" alt="Faim et santé" class="section-img">
+    <p>La survie dans Minecraft dépend de votre capacité à maintenir vos barres de faim et de santé à des niveaux optimaux. Voici comment gérer ces aspects cruciaux.</p>
+    <h3>Gestion de la faim</h3>
+    <ul>
+        <li><strong>Consommez de la nourriture :</strong> Viande cuite, pain, carottes, pommes.</li>
+        <li><strong>Évitez la nourriture crue :</strong> Cela donne moins de points de faim et peut parfois causer des effets indésirables.(la diarrhée :/ )</li>
+    </ul>
+    <h3>Gestion de la santé</h3>
+    <ul>
+        <li><strong>Restauration automatique :</strong> Votre santé se régénère si votre barre de faim est pleine.</li>
+        <li><strong>Potion de soins :</strong> Fabriquez-les à partir d’ingrédients du Nether.</li>
+        <li><strong>Armure et bouclier :</strong> Limitez les dégâts reçus en portant une armure adaptée.</li>
+    </ul>
+    <p><strong>Astuce :</strong> Plantez vos cultures près de l’eau et entourez-les de torches pour accélérer leur croissance même la nuit.</p>
+</div>
+
+<div class="section gauche">
+    <h2>Astuces de survie pour les débutants</h2>
+    <img src="../images/début.png" alt="Astuces de survie" class="section-img">
+    <p>Survivre dans Minecraft peut être difficile, surtout pour les nouveaux joueurs. Voici quelques conseils essentiels pour vous aider à démarrer.</p>
+    <h3>Les premières étapes</h3>
+    <ul>
+        <li>Collectez rapidement du bois pour fabriquer des outils et un abri pour la nuit.</li>
+        <li>Trouvez un endroit sûr pour construire votre maison.</li>
+        <li>Équipez-vous rapidement d’une épée, d’une pioche et de torches.</li>
+    </ul>
+    <h3>Conseils pour la nuit</h3>
+    <ul>
+        <li>Placez des torches pour éviter que les monstres n’apparaissent dans ou près de votre base.</li>
+        <li>Creusez un abri temporaire pour survivre à la première nuit.</li>
+    </ul>
+    <p><strong>Astuce :</strong> Ne creusez jamais directement sous vos pieds pour éviter de tomber dans de la lave ou un gouffre.</p>
+</div>
+
+<div class="section droite">
+    <h2>Les structures essentielles à construire</h2>
+    <img src="../images/structure.png" alt="Structures" class="section-img">
+    <p>Pour survivre et progresser dans Minecraft, il est essentiel de construire certaines structures. Voici une liste des plus importantes.</p>
+    <h3>Structures de base</h3>
+    <ul>
+        <li><strong>Maison :</strong> Protection contre les monstres et espace pour stocker vos ressources.</li>
+        <li><strong>Ferme :</strong> Source de nourriture continue. Entourez vos cultures d’eau pour maximiser leur croissance.</li>
+        <li><strong>Abri du Nether :</strong> Vous protéger des Ghasts et Piglins dans le Nether.</li>
+    </ul>
+    <h3>Structures avancées</h3>
+    <ul>
+        <li><strong>Salle d’enchantement :</strong> Améliorez vos armes et outils.</li>
+        <li><strong>Usine à mobs :</strong> Collectez des objets laissés par les monstres.</li>
+    </ul>
+    <p><strong>Astuce :</strong> Créez des chemins balisés ou des tours de repère pour ne pas vous perdre.</p>
+</div>
+
+<footer>
+    <p>&copy; 2025 Les bases Minecraft - Pour bien débuter !</p>
+</footer>
+
+	</body>
+	</head>
+</html>

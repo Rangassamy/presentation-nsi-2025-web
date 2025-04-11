@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>MineInfo</title>
+		<link rel="stylesheet" href="../style/mainStyle.css">
+	</head>
+	<body>
+		<h1>
+			<div id="header">
+				<div id="logo_buton" onclick="window.location.href='main.html';"><img src="../images/logo.png" height="150px"> </div>
+				<div class="button_slide slide_down" onclick="window.location.href='aide.html';">AIDE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_right" onclick="window.location.href='stats.html';">STATISTIQUES</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_left" onclick="window.location.href='theorie.html';">THEORIE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_diagonal" onclick="window.location.href='quiz.html';">QUIZZZ</div>
+				<br /> <br /><br />
+			</div>
+		</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="content">
+			<p class="text1">
+				Minecraft est un jeu video de type sandbox developpe par Mojang Studios, sorti en 2011, qui permet aux joueurs d'explorer un monde genere aleatoirement compose de blocs a detruire et a reconstruire a leur guise. Avec plusieurs modes de jeu, dont le mode Survie, ou il faut recolter des ressources, et le mode Creatif, qui permet de construire librement, les joueurs peuvent egalement explorer divers biomes, rencontrer des creatures et decouvrir des structures uniques. Le systeme de crafting offre la possibilite de creer des outils et des objets en combinant differents materiaux. Avec un immense succes et une communaute active.
+			</p>
+			<p>
+				Decouvrez notre site dedie a Minecraft, ou vous trouverez des statistiques precises, des astuces pratiques et des theories fascinantes pour ameliorer votre experience de jeu. Que vous soyez un joueur debutant ou chevronne, notre site vous aide a mieux comprendre les mecanismes du jeu, avec des donnees detaillees sur les probabilites d'evenements rares et des conseils pour optimiser vos strategies. Explorez nos theories captivantes qui vous ouvriront de nouvelles perspectives sur Minecraft et devenez un expert du jeu en un rien de temps !
+			</p>
+		</div>
+		<p1>
+		</p1><br>
+		<footer>
+			<p>&copy; 2025 Minecraft Statistiques - Tous Droits reserves - Erwan GREINER</p>
+		<footer/>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+header{
+   background-color: #003357; /*Bleu foncé*/
+   color: #ffffff; /*Blanc*/
+   padding: 20px 0px;
+   text-align: center;
+}
+
+h1{
+   transition: color 0.3s ease, transform 0.3s ease;
+}
+
+h1:hover {
+   color: #009dee; /* La couleur du texte se change en bleu clair */
+   transform: scale(1.1); /* Agrandit le texte de 10% au survol */
+}
+
+h2{
+   text-align: center;
+}
+
+body{
+   background-color: #ffffff;
+}
+
+main {
+   text-align: center;
+   max-width: 1000px; /* Largeur maximale du bloc main */
+   margin: 0 auto; /* Centre main horizontalement */
+}
+
+p {
+   font-family: bierstadt;  
+   font-size: 20px; /* Taille de la police */
+}
+
+img {
+   width: 200px;
+   height: 200px;
+}
+
+/*bouton*/
+
+a {
+   background-color: #003357;
+   color: #009dee;
+   padding: 15px 30px;
+   font-size: 23px;
+   border: none;    border-radius: 20px;
+   text-transform: uppercase; /* Le texte est en lettres majuscules */
+   font-family: bierstadt;
+   text-decoration: none; /* Supprime le soulignement du texte */
+   transition: background-color 0.3s ease, color 0.3s ease; /* Interchange la couleur du texte et du fond */
+}
+
+a:hover{
+   background-color: #009dee;
+   color: #003357;
+}
+
+footer {
+   display: flex;
+   background-color: #003357;
+   color: #ffffff;
+   font-size: 20px;
+   padding; 8px 0px;
+   margin-top: 5%;
+   width: 40%; /* Limite la largeur */
+} 

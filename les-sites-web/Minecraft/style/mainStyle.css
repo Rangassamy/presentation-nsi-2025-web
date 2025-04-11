@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'McFont';
+    src: url('../Minecraft.woff2') format('woff2'), url('../Minecraft.woff') format('woff');
+}
+h1 {
+    position: fixed;
+    top: 10px;
+    left: 5%;
+    margin: 2px 0;
+    color: #aea6a3;
+    background-image: url('../images/stone.png');
+    background-size: 2000px;
+    image-rendering: pixelated;
+    width: 90%;
+    height: 90px;
+    z-index: 1000;
+}
+p1 {
+	margin-left: 42%;
+}
+body{
+  background: no-repeat;
+	background-color: black;
+	background-image: url(../images/main_bg.jpg);
+	background-size: 100%;
+	height: 100vh;
+  font-family: 'McFont', sans-serif;
+}
+#main{
+	background-image : url(images/logo.png);
+}
+
+.content {
+  display: flex;
+  color: #fff; /* Texte blanc */
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour que le texte ressorte bien */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+  justify-content: space-between;
+  align-items: center;
+  text-shadow: 0px 0px 5px rgba(0,0,0,1);
+  font-family: 'McFont', sans-serif;
+  font-size: 21px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+.text1{
+  margin-right: 20px;
+}
+footer {
+  text-align: center;
+  color: #aea6a3;
+  margin-top: 18%;
+}
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+#logo_buton {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.button_slide {
+    text-shadow: 0px 0px 5px rgba(0,0,0,1);
+    margin: 10px, 10px;
+    color: #FFF;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: 'McFont', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #444444;
+    transition: ease-out 1s;
+  }
+  
+.slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #444444;
+  }
+  
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #444444;
+  }
+  
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #444444;
+  }
+  
+.slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 #444444;
+  }

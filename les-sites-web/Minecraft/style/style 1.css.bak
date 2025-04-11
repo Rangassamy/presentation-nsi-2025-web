@@ -1,0 +1,66 @@
+h1{
+color: green ;
+background-color: #663300 ; 
+text-align: center;
+}
+body {
+    background-image: url('MinecraftImage.jpg '); /* Chemin vers l'image */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Ne pas répéter l'image */
+    height: 100vh; /* Assurez-vous que le corps couvre toute la hauteur de la fenêtre */
+    margin: 0; /* Supprime la marge par défaut */
+}
+#box{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+#box1{
+	border:1px solid black;
+	width: 348px;
+    height: 120px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#box1 img {
+	max-width: 100%; /* L'image ne dépasse pas la largeur de la box */
+	max-height: 100%; /* L'image ne dépasse pas la hauteur de la box */
+    border-radius: 8px; /* Arrondit les coins de l'image */
+}
+#box2{
+	border:1px solid black;
+	width: 300px;
+    height: 136px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#box2 img {
+	max-width: 100%; /* L'image ne dépasse pas la largeur de la box */
+	max-height: 100%; /* L'image ne dépasse pas la hauteur de la box */
+    border-radius: 8px; /* Arrondit les coins de l'image */
+}
+
+#box3{
+	position: fixed;
+	bottom: 100px; 
+	border:1px solid black;
+    width: 385px;
+    height: 216.65px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#box3 img {
+	max-width: 100%; /* L'image ne dépasse pas la largeur de la box */
+	max-height: 100%; /* L'image ne dépasse pas la hauteur de la box */
+    border-radius: 8px; /* Arrondit les coins de l'image */
+}

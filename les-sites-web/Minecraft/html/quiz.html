@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Minecraft</title>
+    <link rel="stylesheet" href="../style/QUIZ.css">
+</head>
+<body>
+	<h1>
+			<div id="header">
+				<div id="logo_buton" onclick="window.location.href='main.html';"><img src="../images/logo.png" height="150px"> </div>
+				<div class="button_slide slide_down" onclick="window.location.href='page1.html';">AIDE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_right" onclick="window.location.href='stats.html';">STATISTIQUES</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_left" onclick="window.location.href='../Malcom/Minecraft siteweb.html';">THEORIE</div>
+				<br /> <br /><br />
+				<div class="button_slide slide_diagonal" onclick="window.location.href='quiz.html';">QUIZZZ</div>
+				<br /> <br /><br />
+			</div>
+		</h1>
+    <div class="quiz-container">
+        <h2>Quiz Minecraft</h2>
+        <div id="question-container">
+            <p id="question">Quel est le materiau le plus resistant dans Minecraft ?</p>
+            <ul id="options">
+                <li><button class="option">Pierre</button></li>
+                <li><button class="option">Fer</button></li>
+                <li><button class="option">Diamant</button></li>
+                <li><button class="option">Netherite</button></li>
+            </ul>
+        </div>
+		<p id="score">Score : 0</p>
+        <button id="restart-button" class="hidden">Recommencer le Quizzz</button>
+    </div>
+    <script src="../Java/QUIZ.js"></script>
+</body>
+</html>

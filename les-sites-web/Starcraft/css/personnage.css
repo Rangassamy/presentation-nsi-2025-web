@@ -1,0 +1,46 @@
+#desc_race {
+    background-color: #f0f0f0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-block {
+    margin-left: -20px;
+
+}
+
+.image-block img {
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+    max-width: 30%;
+    height: auto;
+}
+
+.image-text-block {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.image-text-block img {
+    float: left;
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.text-list {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.text-item {
+    float: left;
+    width: 48%;
+    background-color: rgba(155, 86, 86, 0.8);
+    padding: 5px;
+    font-size: 4em, border-radius 3px;
+    box-sizing:border-box;
+}

@@ -1,0 +1,42 @@
+h1{
+color: #35522B;
+background-color: transparent;
+text-align: center;
+font-size: 60px;
+}
+
+p1{
+background-color: white;
+}
+
+body{
+background-image:url(homeback.jpg);
+background-size:cover;
+font-size: 22px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.styled {
+  background-color: silver;
+  border-radius: 10px;
+  color: papayawhip;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.styled1 {
+  background-color: violet; 
+  color: black; 
+  border: 2px solid mediumorchid;
+}
+
+.styled1:hover {
+  background-color: mediumorchid;
+  color: white;
+}

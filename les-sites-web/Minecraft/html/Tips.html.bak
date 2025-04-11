@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Minecraft</title>
+		<link rel="stylesheet" href="../style/styletips.css">
+	</head>
+<body>
+    <h1>
+		<div id="header">
+			<div id="logo_buton" onclick="window.location.href='main.html';"><img src="../images/logo.png" height="150px"> </div>
+			<div class="button_slide slide_down" onclick="window.location.href='page1.html';">AIDE</div>
+			<br /> <br /><br />
+			<div class="button_slide slide_right" onclick="window.location.href='stats.html';">STATISTIQUES</div>
+			<br /> <br /><br />
+			<div class="button_slide slide_left" onclick="window.location.href='theorie.html';">THEORIE</div>
+			<br /> <br /><br />
+			<div class="button_slide slide_diagonal" onclick="window.location.href='quiz.html';">QUIZZZ</div>
+			<br /> <br /><br />
+		</div>
+	</h1><br><br><br><br><br><br><br>
+
+<section>
+    <h2>1. Exploitez les Portails dans l'End</h2>
+    <p>Après avoir vaincu l'Ender Dragon, utilisez les portails en End pour explorer les îles éloignées. Ces zones regorgent de ressources rares comme l'élytre et des shulkers.</p>
+    <ul>
+        <li><strong>Astuce :</strong> Apportez des blocs pour construire autour des portails.</li>
+        <li><strong>Astuce :</strong> Utilisez des perles d'Ender pour naviguer rapidement.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>2. Automatisez vos Fermes</h2>
+    <p>Les fermes automatiques augmentent l'efficacité de la récolte des ressources. Utilisez des redstones, des hoppers et des pistons pour créer des mécanismes complexes.</p>
+    <ul>
+        <li><strong>Astuce :</strong> Une ferme de bambou et de cactus est parfaite pour alimenter un four automatique.</li>
+        <li><strong>Astuce :</strong> Ajoutez un système de tri pour organiser vos ressources.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>3. Maximisez vos Enchantements</h2>
+    <p>Enchanter des outils et armures est crucial pour progresser. Priorisez les enchantements comme Efficacité, Solidité, et Fortune.</p>
+    <ul>
+        <li><strong>Astuce :</strong> Combinez des livres enchantés dans une enclume pour économiser des niveaux.</li>
+        <li><strong>Astuce :</strong> Créez une salle d'enchantement optimale avec 15 bibliothèques autour d'une table d'enchantement.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>4. Protégez Votre Base</h2>
+    <p>Les bases avancées nécessitent des défenses. Utilisez des golems, des pièges et des murs pour protéger vos ressources.</p>
+    <ul>
+        <li><strong>Astuce :</strong> Installez des portails piégés avec des dispensers et des flèches.</li>
+        <li><strong>Astuce :</strong> Creusez un fossé autour de votre base rempli de lave.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>5. Explorez le Nether en Sécurité</h2>
+    <p>Le Nether est dangereux mais regorge de ressources précieuses. Apportez des potions de résistance au feu et une armure dorée pour éviter les Piglins hostiles.</p>
+    <ul>
+        <li><strong>Astuce :</strong> Utilisez des blocs de netherrack pour marquer votre chemin.</li>
+        <li><strong>Astuce :</strong> Équipez-vous de bottes enchantées avec Agilité des âmes pour marcher rapidement sur le sable des âmes.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tips Minecraft Avancé - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>

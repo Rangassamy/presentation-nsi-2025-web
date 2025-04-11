@@ -1,0 +1,95 @@
+#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  padding: 20px;
+  background-color: #0b6380;
+}
+
+#team .left_part {
+  width: 40%;
+  padding: 30px;
+  color: white;
+  min-width: 500px;
+}
+#team .left_part h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.left_part p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* 
+
+partie de droite
+
+ */
+.carousel-container {
+  width: 60%;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.carousel {
+  margin: 20px 0;
+}
+
+.carousel-track {
+  white-space: nowrap;
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+  width: calc(400px * 4 + 30px * 3); /* 4 éléments avec les marges */
+}
+
+.carousel-track.reverse {
+  animation: scroll-right 20s linear infinite;
+}
+
+.carousel-item {
+  flex: none;
+  width: 400px;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  height: 250px;
+}
+
+.carousel-item p {
+  margin-top: 10px;
+  white-space: normal; /* ← permet les retours à la ligne */
+  word-wrap: break-word;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Animation gauche → droite */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Animation droite → gauche */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

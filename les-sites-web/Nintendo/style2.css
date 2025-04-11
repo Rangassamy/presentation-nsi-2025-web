@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+#quiz-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Augmente la largeur du conteneur */
+  max-width: 100%; /* Garde la responsivité */
+  overflow-y: auto; /* Permet de défiler si nécessaire */
+  height: auto; /* S'ajuste automatiquement à la taille du contenu */
+  box-sizing: border-box; /* Inclut les marges et paddings dans la largeur totale */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.question {
+  margin-bottom: 20px; /* Augmente l'espacement entre les questions */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px; /* Augmente la taille du bouton */
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+button[type="button"]:first-of-type {
+  margin-right: 20px; /* Ajoute un espace entre les deux boutons */
+}
+
+.question p {
+  font-size: 16px; /* Ajuster la taille du texte */
+  line-height: 1.5;
+}
+
+.question label {
+  display: block; /* Assurez-vous que chaque option soit affichée sur une nouvelle ligne */
+  margin: 5px 0; /* Un peu d'espace entre les labels */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}

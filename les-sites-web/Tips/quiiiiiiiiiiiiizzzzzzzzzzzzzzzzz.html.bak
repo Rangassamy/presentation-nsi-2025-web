@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz en JavaScript</title>
+	<link rel="stylesheet" href="styleLeo1.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <center>
+		<h2>Quiz en JavaScript</h2>
+        <h5><div id="question"></div></h5>
+        <h5><div id="choices"></div></h5>
+        <h5><button id="next-button" onclick="nextQuestion()">Suivant</button></h5>
+		</center>
+    </div>
+    <script src="quizz.js"></script>
+</body>
+</html>
