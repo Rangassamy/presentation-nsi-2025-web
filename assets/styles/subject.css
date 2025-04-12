@@ -73,3 +73,23 @@
   width: 80%;
   margin-right: 10px;
 }
+
+@media (max-width: 800px) {
+  #subject .left_part {
+    width: 100%;
+  }
+  #subject .left_part h2 {
+    font-size: 2rem;
+  }
+  #subject .left_part p {
+    font-size: 1.5rem;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.4rem;
+  }
+}
