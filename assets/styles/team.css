@@ -8,6 +8,7 @@
   width: 100%;
   padding: 20px;
   background-color: #0b6380;
+  overflow: hidden;
 }
 
 #team .left_part {
@@ -15,6 +16,7 @@
   padding: 30px;
   color: white;
   min-width: 500px;
+  text-align: center;
 }
 #team .left_part h2 {
   font-size: 2.5rem;
@@ -36,6 +38,15 @@ partie de droite
   width: 60%;
   overflow: hidden;
   padding: 30px 0;
+}
+
+@media (max-width: 800px) {
+  .carousel-container {
+    width: 95%;
+  }
+  #team img {
+    width: 80%;
+  }
 }
 
 .carousel {
