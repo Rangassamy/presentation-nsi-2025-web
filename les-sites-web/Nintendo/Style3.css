@@ -1,86 +1,86 @@
 h1 {
-    background-color: #900603;
-    color: #ffffff;
-    padding: 20px 0px;
-    text-align: center;
+  background-color: #900603;
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
 }
 
 h2 {
-    color: black;
-    text-align: center;
-    font-size: 30px;
-    transition: color 0.3s ease, transform 0.3s ease;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 h2:hover {
-    color: #910D09;
-    transform: scale(1.1);
+  color: #910d09;
+  transform: scale(1.1);
 }
 
 div {
-    font-size: 125%;
-    color: white;
+  font-size: 125%;
+  color: white;
 }
 
 body {
-    background-image: url('path-to-your-image.jpg'); /* Remplace 'path-to-your-image.jpg' par l'URL de ton image */
-    background-size: cover;
+  background-image: url("path-to-your-image.jpg"); /* Remplace 'path-to-your-image.jpg' par l'URL de ton image */
+  background-size: cover;
 }
 
 h3 {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
 #button {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .btn-poussoir {
-    background-color: #900603; 
-    color: #ffffff; 
-    border: none;
-    padding: 15px 30px;
-    margin: 15px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 8px; /* Bords arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée douce */
-    transition: all 0.3s ease; /* Transition fluide pour tous les changements */
+  background-color: #900603;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  margin: 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 8px; /* Bords arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée douce */
+  transition: all 0.3s ease; /* Transition fluide pour tous les changements */
 }
 
 /* Effet au survol */
 .btn-poussoir:hover {
-    background-color: #1635; /* Rouge foncé au survol */
-    transform: translateY(-3px); /* Légère élévation du bouton */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
+  background-color: #1635; /* Rouge foncé au survol */
+  transform: translateY(-3px); /* Légère élévation du bouton */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre plus marquée */
 }
 
 /* Effet au clic */
 .btn-poussoir:active {
-    transform: translateY(1px); /* Effet de pression, le bouton semble s'enfoncer */
+  transform: translateY(
+    1px
+  ); /* Effet de pression, le bouton semble s'enfoncer */
 }
 
 /* Effet au focus (quand le bouton est sélectionné) */
 .btn-poussoir:focus {
-    outline: none; /* Retire le contour par défaut */
-    box-shadow: 0 0 0 4px rgba(144, 6, 3, 0.4); /* Ombre autour du bouton */
+  outline: none; /* Retire le contour par défaut */
+  box-shadow: 0 0 0 4px rgba(144, 6, 3, 0.4); /* Ombre autour du bouton */
 }
 
 main {
-   text-align: center;
-   max-width: 1000px; 
-   margin: 0 auto; 
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 footer {
-   display: flex;
-   background-color: #900603;
-   color: #ffffff;
-   font-size: 20px;
-   padding; 8px 0px;
-   margin-top: 5%;
-   width: 40%; 
-} 
-
-
+  display: flex;
+  background-color: #900603;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 8px 0px;
+  margin-top: 5%;
+  width: 40%;
+}
